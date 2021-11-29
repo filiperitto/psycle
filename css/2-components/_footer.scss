@@ -1,0 +1,20 @@
+footer{
+    position: fixed;
+    width: 100%;
+    padding: 40px 50px;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    ul{
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        li{
+            margin-right: 20px
+        }
+    }
+    p{
+        color: #fff;
+    }
+}
