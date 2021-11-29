@@ -1,10 +1,13 @@
 footer{
-    position: fixed;
+    position: relative;
     width: 100%;
     padding: 40px 50px;
     bottom: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    @include respond-to-min(920){
+        position: absolute;
+    }
     ul{
         list-style: none;
         display: flex;

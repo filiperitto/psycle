@@ -2,12 +2,15 @@
 header {
     width: 100%;
     height: auto;
-    position: fixed;
+    position: relative;
     padding: 50px;
     z-index: 99;
     transition: all 300ms ease-in-out;
     //background: #fff;
     //color: #fff;
+    @include respond-to-min(920){
+        position: fixed;
+    }
     a{
         img{
             
